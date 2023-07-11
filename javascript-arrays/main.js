@@ -21,7 +21,7 @@ const numberOfStudents = students.length;
 
 console.log('There are', numberOfStudents, 'students in the class.');
 
-const lastIndex = students[students.length - 1];
+const lastIndex = students[numberOfStudents - 1];
 
 const lastStudent = lastIndex;
 
