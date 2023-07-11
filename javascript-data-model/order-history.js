@@ -1,0 +1,40 @@
+const orderHistory = [
+  {
+    product1: 'Javascript for impatient programmers',
+    author: 'Rauschmayer, Dr. Axel',
+    datePlaced: 'Aug 4, 2020',
+    dateDelivered: 'Aug 8, 2020',
+    total: 34.0,
+    shipTo: 'JS Master',
+    returnWindowClosed: 'Sept 7, 2020',
+  },
+  {
+    product1: 'The Timeless Way of Building',
+    author: 'Alexander, Christopher',
+    datePlaced: 'July 19,2020',
+    dateDelivered: 'July 20, 2020',
+    total: 44.53,
+    shipTo: 'JS Master',
+    returnWindowClosed: 'Aug 19, 2020',
+  },
+  {
+    product1:
+      'Gamecube controller Adapter. Super smash bros switch gamecube adapter for WII U, PC. Support turbo and vibration features. No driver and no lag gamecube adapter.',
+    datePlaced: 'July 4, 2020',
+    dateDelivered: 'July 7, 2020',
+    total: 17.22,
+    shipTo: 'JS Master',
+    returnWindowClosed: 'Aug 5, 2020',
+  },
+  {
+    product1: 'Gamecube controller- supersmash bros edition(Nintendo Switch',
+    price1: 94.95,
+    product2: 'The Art of Sql',
+    price2: 33.99,
+    datePlaced: 'July 3, 2020',
+    dateDelivered: 'July 5, 2020',
+    total: 138.93,
+    shipTo: 'JS Master',
+    returnWindowClosed: 'Aug 4, 2020',
+  },
+];
