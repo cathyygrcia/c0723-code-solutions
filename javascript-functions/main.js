@@ -18,18 +18,18 @@ const getAreaResult = getArea(17, 42);
 console.log('getArea Result:', getAreaResult);
 
 function getFirstName(person) {
-  const personsFirstName = {
-    firstName: 'Cathy',
-    lastName: 'Garcia',
-  };
-  return personsFirstName.firstName;
+  return person.firstName;
 }
-const getFirstNameResult = getFirstName();
-console.log('getFirstNameResult:', getFirstNameResult);
+const person = {
+  firstName: 'Cathy',
+  lastName: 'Garcia',
+};
+const getFirstNameResult = getFirstName(person);
+console.log('getFirstName Result:', getFirstNameResult);
 
 function getLastElement(array) {
-  const getLastElement = ['propane', 'and', 'propane', 'accessories'];
-  return getLastElement[getLastElement.length - 1];
+  return array[array.length - 1];
 }
-const getLastElementResult = getLastElement();
+const array = ['propane', 'and', 'propane', 'accessories'];
+const getLastElementResult = getLastElement(array);
 console.log('getLastElement Result:', getLastElementResult);
