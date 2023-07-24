@@ -1,0 +1,41 @@
+h1 {
+  color: white;
+  font-family: lato, sans-serif;
+  font-size: 25px;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+  font-family: lato, sans-serif;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background-color: #3696da;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.image {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
