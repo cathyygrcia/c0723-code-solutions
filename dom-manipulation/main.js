@@ -1,24 +1,23 @@
 let clicks = 0;
 
-const hotButton = document.querySelector('.hot-button');
-const clickCount = document.querySelector('.click-count');
+const $hotButton = document.querySelector('.hot-button');
+const $clickCount = document.querySelector('.click-count');
 
-hotButton.addEventListener('click', function (event) {
+$hotButton.addEventListener('click', function (event) {
   clicks++;
   if (clicks < 4) {
-    hotButton.className = 'hot-button cold';
+    $hotButton.className = 'hot-button cold';
   } else if (clicks < 7) {
-    hotButton.className = 'hot-button cool';
+    $hotButton.className = 'hot-button cool';
   } else if (clicks < 10) {
-    hotButton.className = 'hot-button tepid';
+    $hotButton.className = 'hot-button tepid';
   } else if (clicks < 13) {
-    hotButton.className = 'hot-button warm';
+    $hotButton.className = 'hot-button warm';
   } else if (clicks < 16) {
-    hotButton.className = 'hot-button hot';
+    $hotButton.className = 'hot-button hot';
   } else {
-    hotButton.className = 'nuclear!';
+    $hotButton.className = 'hot-button nuclear';
   }
 
-  console.log(`Button clicked ${clicks} times.`);
-  clickCount.textContent = 'clicks: ' + clicks;
+  $clickCount.textContent = 'clicks: ' + clicks;
 });
