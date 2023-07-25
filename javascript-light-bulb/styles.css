@@ -1,0 +1,33 @@
+.bulb {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 50%;
+  background-color: #faea84;
+  box-shadow: 4px 4px 12px yellow;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 700px;
+}
+
+body {
+  background-color: #fef9f1;
+}
+
+.body.dark {
+  background-color: #111;
+}
+
+.bulb.off {
+  background-color: #252525;
+  box-shadow: 4px 4px 12px black;
+}
+
+.bulb.on {
+  background-color: #faea84;
+}
