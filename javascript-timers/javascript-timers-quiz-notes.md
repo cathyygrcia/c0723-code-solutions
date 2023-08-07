@@ -17,7 +17,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   0 milliseconds
 
 - What do `setTimeout()` and `setInterval()` return?
-  an intervalID
+  an intervalID , A numeric non zero value.
 
 ## Notes
 
